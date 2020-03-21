@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import Header from "./Header";
+import Technologies from "./Technologies";
 
 const App = () => {
     return (
@@ -8,26 +10,6 @@ const App = () => {
                 <Header/>
                 <Technologies/>
             </div>
-        </div>);
-};
-
-const Header = () => {
-    return (
-        <div>
-            <a href='#s'>home</a>
-            <a href='#s'>messages</a>
-        </div>);
-};
-
-const Technologies = () => {
-    return (
-        <div>
-            <ul>
-                <li>css</li>
-                <li>js</li>
-                <li>html</li>
-                <li>react</li>
-            </ul>
         </div>);
 };
 
